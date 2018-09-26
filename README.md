@@ -5,19 +5,7 @@
 
 - The programs should not produce any zombie processes.
 
-- The programs have to be documented! Any file that you edit should have preamble including
-your name as the author, description of the purpose of the program and inline comments
-in the functions that you implement.
-- The code has to follow C programming conventions.
-- The code has to be formatted properly.
-- The C code has to look like a high level programming language.
-
-In addition, you are required to make at least 5 commits to your repository.
-Each time you make a significant change/improvement to your solutions, you
-should commit and push the changes to the remote repository. This way, if there
-are any problems with your local copy of the files, you have a recent version of
-the code available. Your commits should be distributed over time - they should
-not be all made within an hour before the due date.
+- The programs have to be documented!
 
 
 
@@ -98,14 +86,4 @@ __Restrictions:__
 - The program should return control of the terminal back to the user as soon as possible (not only after the message is printed).
 - Your program should not create any zombie processes.
 
-__Useful functions:__
 
-`alarm` - arranges for a `SIGALRM` signal to be delivered to the calling process in
- the specified number of seconds. Read the manual page (`man alarm`) for
-details on how to use it.
-
-You also will need to use `pause`, `fork` and `signal` calls.
-
-
-
-__Your program should be implemented in the file called `remind_me.c`.__
